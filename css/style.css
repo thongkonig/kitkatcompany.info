@@ -1,0 +1,88 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f6f1;
+    color: #5b5b5b;
+}
+.header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+}
+.header img {
+    max-width: 200px;
+    margin-bottom: 10px;
+}
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+h1, h2 {
+    color: #373737;
+    text-align: center;
+}
+h1 {
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+.job-info p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+.apply-section {
+    margin-top: 40px;
+}
+form input, form textarea {
+    width: 100%;
+    padding: 14px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+.instructions {
+    background-color: #f3f3f3;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 48%;
+}
+button img {
+    width: 24px;
+    height: 24px;
+}
+button:hover {
+    background-color: #0056b3;
+}
